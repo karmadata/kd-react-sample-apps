@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import 'bootstrap/dist/css/bootstrap.css';
-import 'basscss/css/basscss.css';
 
 import KdFilter from './KdFilter.js';
 import { FilterItem } from 'karmadata';
@@ -48,7 +46,7 @@ let selectDiseaseOptions =  {
 };
 
 
-class App1 extends Component {
+class Page2 extends Component {
     constructor(props){
         super(props);
         this.handleChange = this.handleChange.bind(this);
@@ -60,11 +58,11 @@ class App1 extends Component {
     }
 
     componentDidMount() {
-        console.log("mounted App1");
+        console.log("mounted App2");
     }
 
     componentWillUnmount() {
-        console.log("unmounted App1");
+        console.log("unmounted App2");
     }
 
     handleChange(e) {
@@ -82,7 +80,16 @@ class App1 extends Component {
         return (
             <div className="App">
                 <div className="App-header">
-                    <h2>Welcome to App1</h2>
+                    <h2>Welcome to Page 2</h2>
+                    <ul>
+                        <li>Same as Page1, but shows that Page1 bootstrap css does not infect this page</li>
+                        <li>Page1 dismount the bootstrap local css in shadow DOM goes away</li>
+                        <li>Proven as second row is styled as a BS grid but CSS is gone</li>
+
+                    </ul>
+
+
+
                 </div>
 
                 <div className="clearfix">
@@ -122,4 +129,4 @@ class App1 extends Component {
     }
 }
 
-export default App1;
+export default Page2;

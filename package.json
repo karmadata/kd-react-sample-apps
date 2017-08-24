@@ -8,7 +8,7 @@
     "karmadata": "^3.1.8",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
-    "react-kd.ui": "^3.1.10",
+    "react-kd.ui": "^3.2.0",
     "react-router-dom": "^4.2.0",
     "react-scripts": "1.0.11"
   },

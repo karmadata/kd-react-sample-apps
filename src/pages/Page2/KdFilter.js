@@ -17,11 +17,12 @@ class KdFilter extends Component {
         {
             return (
                 <KdSelectEntity
+                    //events={{onChange: this.props.onChange}}
+
                     theme={this.props.kdFilterOptions.theme}
                     selectBehavior={this.props.kdFilterOptions.selectBehavior}
                     isDisabled={this.props.kdFilterOptions.isDisabled}
                     chicklets={this.props.kdFilterOptions.chicklets}
-                    //events={{onChange: this.props.onChange}}
                     events={{onChange: this.localOnChange}}
                     autoComplete={this.props.kdFilterOptions.autoComplete}
                     api={this.props.kdFilterOptions.api}

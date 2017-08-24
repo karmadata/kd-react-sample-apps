@@ -1,16 +1,16 @@
 import React, { Component } from 'react';
-import 'basscss/css/basscss.css';
+import AppRoutes from './AppRoutes.js';
 
-class App_Home extends Component {
+class App extends Component {
 
     render() {
         return (
             <div>
-            Home
+                <AppRoutes/>
             </div>
 
         );
     }
 }
 
-export default App_Home;
+export default App;

@@ -1,24 +1,24 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 
-import App_Home from './App_Home/App_Home';
-import App1 from './App1/App1';
-import App2 from './App2/App2';
+import Home from './pages/Home/Home';
+import Page1 from './pages/Page1/Page1';
+import Page2 from './pages/Page2/Page2';
 
 const AppRoutes = () => (
     <Router>
         <div>
             <ul>
                 <li><Link to="/">Home</Link></li>
-                <li><Link to="/app1">App1</Link></li>
-                <li><Link to="/app2">App2</Link></li>
+                <li><Link to="/Page1">Page1</Link></li>
+                <li><Link to="/Page2">Page2</Link></li>
             </ul>
 
             <hr/>
 
-            <Route exact path="/" component={App_Home}/>
-            <Route path="/app1" component={App1}/>
-            <Route path="/app2" component={App2}/>
+            <Route exact path="/" component={Home}/>
+            <Route path="/Page1" component={Page1}/>
+            <Route path="/Page2" component={Page2}/>
         </div>
     </Router>
 )
