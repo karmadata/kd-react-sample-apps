@@ -4,11 +4,11 @@ import { KdSelectEntity} from 'react-kd.ui';
 class KdFilter extends Component {
 
     componentDidMount() {
-        console.log("mounted App1.KdFilter");
+        console.log("mounted App2.KdFilter");
     }
 
     componentWillUnmount() {
-        console.log("unmounted App1.KdFilter");
+        console.log("unmounted App2.KdFilter");
     }
 
     localOnChange = this.props.onChange;

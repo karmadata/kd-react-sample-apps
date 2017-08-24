@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import logo from './logo.svg';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'basscss/css/basscss.css';
 
@@ -60,11 +61,11 @@ class App1 extends Component {
     }
 
     componentDidMount() {
-        console.log("mounted App1");
+        console.log("mounted App2");
     }
 
     componentWillUnmount() {
-        console.log("unmounted App1");
+        console.log("unmounted App2");
     }
 
     handleChange(e) {
@@ -82,9 +83,11 @@ class App1 extends Component {
         return (
             <div className="App">
                 <div className="App-header">
-                    <h2>Welcome to App1</h2>
+                    <h2>Welcome to App2</h2>
                 </div>
-
+                <p className="App-intro">
+                    To get started, edit <code>src/App.js</code> and save to reload.
+                </p>
                 <div className="clearfix">
                     <h1>A basscss grid</h1>
 

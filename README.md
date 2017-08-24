@@ -32,13 +32,16 @@ npm install react-kd.ui --save
 npm install basscss@8.0.2 --save
 ```
 
-# Bootstrap basscss
+# Bootstrap errr bootstrap
 
 This is just to test kd ui widgets against BS
 We are liking basscss better
 
 ```npm install bootstrap@3 --save```
 
+# Add routing
+
+```npm install --save react-router-dom```
 
 ##Customize your app with other npm packages as neccessary
 Keep it lean
