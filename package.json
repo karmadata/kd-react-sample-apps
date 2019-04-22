@@ -6,11 +6,11 @@
     "basscss": "^8.0.10",
     "bootstrap": "^4.1.3",
     "karmadata": "^3.1.23",
-    "react": "^16.5.2",
-    "react-dom": "^16.5.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
     "react-kd.ui": "^3.2.8",
     "react-router-dom": "^4.3.1",
-    "react-scripts": "^2.0.4"
+    "react-scripts": "2.1.8"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -18,7 +18,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
+    "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
   "devDependencies": {},
